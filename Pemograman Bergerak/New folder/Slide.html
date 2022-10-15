@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style type="text/css">
+        *{
+            padding: 0px;
+            margin: 0px auto;
+        }
+        .box{
+            width: 900px;
+            height: 600px;
+            text-align: center;
+            padding-top: 100px;
+            box-shadow: 3px 3px 3px 3px rgb(104, 103, 103);
+        }
+        .box2{
+            width: 900px;
+            height: 400px;
+            background-color: rgb(5, 111, 128);
+            font-family: sans-serif;
+            color: #fff;
+            font-size: 50px;
+            text-align: left;
+            padding: 50px 0px 0px 50px;
+            font-weight: bold;
+        }
+        .box1{
+            width: auto;
+            height: auto;
+            font-family: sans-serif;
+            color: rgb(2, 2, 2);
+            font-size: 50px;
+            text-align: left;
+            padding: 50px 0px 0px 50px;
+            font-weight: bold;
+        }
+        .box3{
+            width: auto;
+            height: auto;
+            background-color: #fff;
+            font-family: sans-serif;
+            font-size: 30px;
+            color: rgb(4, 4, 4);
+            text-align: left;
+            padding: 50px 0px 0px 50px;
+            font-weight: bold;
+        }
+        .box4{
+            width: auto;
+            height: auto;
+            background-color: #fff;
+            font-family: sans-serif;
+            font-size: 25px;
+            color: rgb(4, 4, 4);
+            text-align: justify;
+            padding: 50px 20px 0px 50px;
+        }
+        .box5{
+            width: auto;
+            height: auto;
+            background-color: #fff;
+            font-family: sans-serif;
+            font-size: 25px;
+            color: rgb(4, 4, 4);
+            text-align: left;
+            padding: 50px 0px 0px 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="box1">
+         Kotlin Dasar
+        </div>
+        <div class="box5">
+        Syarif Hidayatullah, S.Kom., M.Kom.
+        </div>
+     </div>
+     &nbsp;
+    <div class="box">
+       <div class="box2">
+        Pengenalan Kotlin
+       </div>
+    </div>
+    &nbsp;
+    <div class="box">
+        <div class="box3">
+            Sejarah Kotlin
+        </div>
+      
+        <div class="box4">
+            <ul>
+                <li>Bahasa Pemprograman Kotlin dikenalkan oleh Perusahaan JetBrains pada tahun 2011</li>
+                <li>Awalnya Kotlin adalah bahasa Pemprograman yang berjalan di JVM (Java Virtual Machine)</li>
+                <li>Kotlin di Desain agar terintegrasi dengan Java</li>
+                <li>Tahun 2017, Google mengumumkan bahwa Kotlin adalah bahasa Pemprogramanyang direkomendasikan untuk pengembangan aplikasi android</li>
+            </ul>
+        </div>
+    </div>
+    &nbsp;
+    <div class="box">
+        <div class="box3">
+            Apa itu Kotlin ?
+        </div>
+      
+        <div class="box4">
+            Kotlin adalah sebuah bahasa pemrograman dapat digunakan semua platform seperti JVM, Android, dan Java Script. Kotlin diambil dari sebuah pulau di negara Rusia yaitu Kotlin Island yang dikembangkan oleh JetBrain.<br><br>
+            Kotlin ini dapat dioperasikan secara bersamaan dengan bahasa java contoh kasus ketika kita menjadi mobile developer dan ingin memaintenance aplikasi tersebut tapi kita hanya menguasai kotlin sedangkan penggunaan bahasa sebelumnya pada aplikasi tersebut oleh senior developer menggunakan bahasa java disini kita tetap bisa menggunakan bahasa kotlin secara bersamaan tanpa merusak kodingan sebelumnya
+        </div>
+    </div>
+    &nbsp;
+    <div class="box">
+        <div class="box3">
+            Kenapa Belajar Kotlin
+        </div>
+      
+        <div class="box4">
+            <ul>
+                <li>Java adalah bahasa pemprograman paling populer didunia</li>
+                <li>Ekosistem teknologi pendukung java sudah sangat besar dan dewasa</li>
+                <li>Kotlin adalah bahasa pemprogramanyang dapat berjalan diatas JVM</li>
+                <li>Bahasa pemprograman Kotlin lebih elegan dan sederhana dibanding java</li>
+                <li>Kotlin menjadi bahasa pemprograman utama untuk pengembangan aplikasi Android</li>
+                <li>Spring (Framework Backend Java terpopuler) sekarang sudah mendukung Kotlin</li>
+               
+            </ul>
+        </div>
+    </div>
+    &nbsp;
+    <div class="box">
+        <div class="box3">
+            Kenapa Harus Kotlin?
+        </div>
+      
+        <div class="box4">
+            <ul>
+                <li>Less code Artinya kode yang kita buat jauh lebih sedikit dan sederhana dibanding kita menggunakan java.</li>
+                <li>Null Safe Karena kotlin aman dari masalah Nullbility dan Mutability pada umumnya program akan force close ketika variable belum didefinisikan</li>
+                <li>Interoperable Seperti yang dikatakan sebelumnya kotlin itu introperable atau dapat dijalankan bersamaan dengan java</li>
+                <li>Have a Unique Library Mempunyai beberapa jennis library unik yang hanya dimiliki oleh kotlin tersebut contohnya library anko library ini mendukung program tanpa XML code untuk layout nya dan ada jenis lainnya seperti KTK dan Coin library</li>
+                <li>Lambda Expression Object Oriented dan Functional nya menggunakan lambda ini juga mendukung agar code kita lebih menjadi sedikit</li>
+                <li>Android Kotlin Extension Kotlin ini sangat sangat hemat code dia mempunyai plugin android kotlin extension ini juga digunakan agar source code yang lebih simple dan mudah dibaca dibandingkan java</li>
+               
+            </ul>
+        </div>
+    </div>
+    &nbsp;
+    <div class="box">
+        <div class="box3">
+            Software Development Kit
+        </div>
+      
+        <div class="box4">
+            <ul>
+                <li>SDK adalah perangkat lunak yang digunakan untuk proses Development</li>
+                <li>SDK digunakan untuk melakukan kompilasi kode program Kotlin dan menjalankan kode program Kotlin</li>
+                <li>Java Development Kit Versi 8 keatas</li>
+                <li><a href="https://jdk.java.net">https://jdk.java.net</a></li>
+            </ul>
+        </div>
+    </div>
+    &nbsp;
+    <div class="box">
+        <div class="box3">
+            Proses Development Program Kotlin
+        </div>
+      
+        <div class="box4">
+           <img src="proses.png">
+        </div>
+    </div>
+    &nbsp;
+    <div class="box">
+        <div class="box3">
+            Integrated Development Invironment
+        </div>
+      
+        <div class="box4">
+            <ul>
+                <li>IDE adalah smart editor yang digunakan untuk mengedit kode program Kotlin</li>
+                <li>IDE juga digunakan untuk melakukan otomatisasi proses kompilasi kode program Kotlin dan otomatisasi proses menjalankan program Kotlin</li>
+                <li>JetBrains Intellij IDEA</li>
+                <li><a href="https:www.jetbrains.com/idea/">https:www.jetbrains.com/idea/</a></li>
+            </ul>
+        </div>
+    </div>
+    &nbsp;
+    <div class="box">
+        <div class="box3">
+            #Contoh penulisan POJO dalam Java
+        </div>
+      
+        <div class="box4">
+            <a href="pojojava.png" target="_blank">View</a>
+        </div>
+    </div>
+    &nbsp;
+    <div class="box">
+        <div class="box3">
+            #Ketika POJO Menngunakan Kotlin
+        </div>
+      
+        <div class="box4">
+            <img src="pojokotlin.png">
+        </div>
+    </div>
+    &nbsp;
+    <div class="box">
+        <div class="box3">
+            Program Pertama Kotlin
+        </div>
+      
+        <div class="box4">
+            Cara membuat program kotlin kita dapat memanfaat kan playground yang ada di situs resmi kotlin kita bisa membuka link ini https://play.kotlinlang.org<br>
+            <img src="1.png">
+        </div>
+    </div>
+    &nbsp;
+    <div class="box">
+        <div class="box3">
+            Program Pertama Kotlin
+        </div>
+      
+        <div class="box4">
+            Cara membuat program kotlin kita dapat memanfaat kan playground yang ada di situs resmi kotlin kita bisa membuka link ini https://play.kotlinlang.org<br>
+            <img src="1.png"><br>
+            Dalam program hello world terdapat 2 perbedaan untuk perintah menampilkan yaitu print (Menampilkan dengan tidak membuat line baru) dan println (Menampilkan dengan membuat line baru)
+        </div>
+    </div>
+    &nbsp;
+   <div class="box">
+       <div class="box2">
+        Tipe Data Number
+       </div>
+    </div>
+    &nbsp;
+    <div class="box">
+        <div class="box3">
+            Tipe Data Number
+        </div>
+      
+        <div class="box4">
+            <ul>
+                <li>Integer Number</li>
+                <li>Floating Number</li>
+            </ul>
+        </div>
+    </div>
+    &nbsp;
+    <div class="box">
+        <div class="box3">
+            Integer Number
+        </div>
+      
+        <div class="box4">
+            <img src="11.png" width="800">
+        </div>
+    </div>
+    &nbsp;
+    <div class="box">
+        <div class="box3">
+            Integer Number
+        </div>
+      
+        <div class="box4">
+            <img src="12.png" width="800">
+        </div>
+    </div>
+    &nbsp;
+    <div class="box">
+        <div class="box3">
+            Floating Point Number
+        </div>
+      
+        <div class="box4">
+            <img src="13.png" width="800">
+        </div>
+    </div>
+    &nbsp;
+    <div class="box">
+        <div class="box3">
+            Floating Point Number
+        </div>
+      
+        <div class="box4">
+            <img src="14.png" width="800">
+        </div>
+    </div>
+    &nbsp;
+    <div class="box">
+        <div class="box3">
+            Variable Mutable dan Immutable
+        </div>
+      
+        <div class="box4">
+            Apa itu Mutable dan Immutable ? Mutable (var) adalah sebuah deklarasi variable yang menandakan data yang didalam variable tersebut dapat diubah sedangkan, Immutable (val) adalah kebalikannya yaitu sebuah deklarasi variable yang menandakan dari yang didalam variable tersebut tidak dapat dirubah untuk lebih jelasnya kalian bisa lihat contoh program dibawah ini :<br>
+           
+        </div>
+    </div>
+    &nbsp;
+    <div class="box">
+        <div class="box3">
+            Mutable
+        </div>
+      
+        <div class="box4">
+            <img src="2.png">
+        </div>
+    </div>
+    &nbsp;
+    <div class="box">
+        <div class="box3">
+            Immutable
+        </div>
+      
+        <div class="box4">
+            <img src="3.png">
+        </div>
+    </div>
+    &nbsp;
+    <div class="box">
+        <div class="box3">
+            Conditional
+        </div>
+      
+        <div class="box4">
+            Conditional atau bisa kita sebut percabangan dalam suatu program untuk menentukan nilai dalam data tersebut contoh kasus dalam array data ada kata kunci jakarta, jogja, padang. Jika data yang dipilih jakarta maka yang ditampilkan adalah kerak telor, jogja = bakpia, padang = rendang. Tampilkan data ketiga ketika tidak ditemukan kata kunci maka outputnya data tidak ditemukan, jika ditemukan maka outputnya sesuai makanan daerah masing masing
+        </div>
+    </div>
+    &nbsp;
+    <div class="box">
+        <div class="box3">
+            Conditional
+        </div>
+      
+        <div class="box4">
+            <img src="4.png">
+        </div>
+    </div>
+    &nbsp;
+    <div class="box">
+        <div class="box3">
+            Looping Data
+        </div>
+      
+        <div class="box4">
+            Looping adalah seuatu perulangan data yang difungsikan agar data yang diinginkan otomatis diulang dengan berbagai aturan tertentu contoh program looping kalian dapat lihat dibawah ini :
+        </div>
+    </div>
+    &nbsp;
+    <div class="box">
+        <div class="box3">
+            Looping Data
+        </div>
+      
+        <div class="box4">
+            Looping adalah seuatu perulangan data yang difungsikan agar data yang diinginkan otomatis diulang dengan berbagai aturan tertentu contoh program looping kalian dapat lihat dibawah ini :
+        </div>
+    </div>
+    &nbsp;
+    <div class="box">
+        <div class="box3">
+            Looping Data
+        </div>
+      
+        <div class="box4">
+           <img src="5.png">
+        </div>
+    </div>
+    &nbsp;
+    <div class="box">
+        <div class="box3">
+            Calling Function and New Class
+        </div>
+      
+        <div class="box4">
+            Function adalah sebuah serangkaian kode yang disembunyikan dari pemanggil sedangkan, Class adalah kumpulan beberapa function yang memiliki tugas tugas tertentu nahh… disini kita akan membahas bagaimana cara cara memanggil function atau class baru pada function pemanggil untuk lebih jelasnya kalian bisa melihat code dibawah ini :
+        </div>
+    </div>
+    &nbsp;
+    <div class="box">
+        <div class="box3">
+            Calling Function and New Class
+        </div>
+      
+        <div class="box4">
+           <img src="6.png">
+        </div>
+    </div>
+    &nbsp;
+    <div class="box">
+        <div class="box3">
+            Task For Beginner
+        </div>
+      
+        <div class="box4">
+           <img src="7.png">
+        </div>
+    </div>
+    &nbsp;
+    <div class="box">
+        <div class="box3">
+        Task Complex
+        </div>
+      
+        <div class="box4">
+            <ul>
+                <li>Task 1 : membuat sebuah function dengan 5 parameter , 3 string , 2 integer dan mempunyai return double semua nilai dikalikan semua</li>
+                <li>Task 2 : bikin sebuah class dengan mempunyai 3 function dan waktu dipanggil function dikalikan</li>
+            </ul>
+        </div>
+    </div>
+    &nbsp;
+    <div class="box">
+        <div class="box3">
+        Completed Task
+        Task 1 :
+        </div>
+      
+        <div class="box4">
+           <img src="9.png">
+        </div>
+    </div>
+    &nbsp;
+    <div class="box">
+        <div class="box3">
+        Task 2 :
+        </div>
+      
+        <div class="box4">
+           <img src="10.png">
+        </div>
+    </div>
+</body>
+</html>
