@@ -1,0 +1,68 @@
+fun main() {
+
+    //nilai mahasiswa
+    var nama = "Bayu Krisna"
+    var nTugas1 = 80
+    var nTugas2 = 80
+    var nTugas3 = 80
+    var UTS = 100
+    var UAS = 100
+    var nTotalTugas = (nTugas1+nTugas2+nTugas3)/3
+
+    //Result akhir
+    var a = nTotalTugas*0.2
+    var b = UAS*0.5
+    var c = UTS*0.3
+    var d = a+b+c
+
+    //detail
+    detail("Bayu Krisna",d)
+
+
+}
+
+fun cekLulus(nilai : Double){
+    if (nilai >70){
+        println("Status : Lulus")
+    }else{
+        println("Status : tidak lulus")
+    }
+}
+
+fun detail(nama : String , d: Double){
+    if(d <= 20 && d >=0 ) {
+        println("nama : $nama")
+        println("nilai : $d")
+        println("Grade : e")
+        cekLulus(d)
+
+    }else if (d <= 80  && d > 70){
+        println("nama : $nama")
+        println("nilai : $d")
+        println("Grade : b")
+        cekLulus(d)
+
+
+    }else if (d <= 100  && d > 80){
+        println("nama : $nama")
+        println("nilai : $d")
+        println("Grade : a")
+        cekLulus(d)
+
+    }else if(d <=60 && d > 40 ){
+        println("nama : $nama")
+        println("nilai : $d")
+        println("Grade : d")
+        cekLulus(d)
+
+    }else if (d <=70 && d > 60){
+        println("nama : $nama")
+        println("nilai : $d")
+        println("Grade : c")
+        cekLulus(d)
+
+    }
+
+
+}
+
