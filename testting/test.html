@@ -1,0 +1,32 @@
+<style>
+  .flower {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    border-radius: 50%;
+  }
+
+  .stem {
+    width: 10px;
+    height: 100px;
+    background-color: green;
+    position: relative;
+    left: 45px;
+    top: -100px;
+    animation: grow 1s linear infinite;
+  }
+
+  @keyframes grow {
+    from {
+      height: 100px;
+    }
+    to {
+      height: 200px;
+    }
+  }
+</style>
+
+<div class="flower">
+  <div class="stem"></div>
+</div>
+
